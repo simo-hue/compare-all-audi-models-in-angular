@@ -1,23 +1,11 @@
 .center {
   margin: 0;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-h1{
-  text-align: center;
-  color: tomato;
+h4{
+  color: red;
 }
-.divieto{
-  margin: 0;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-#floatingPassword{
-           -webkit-text-security:disc;
-       }
