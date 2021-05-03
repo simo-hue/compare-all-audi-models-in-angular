@@ -27,7 +27,7 @@ export class LoginComponent implements OnInit {
       }
     else{
       this.mioServ.setAutentica(false);
-       swal.fire('LOGIN FALLITO', 'Username o Password errati', 'error');
+       swal.fire('LOGIN FALLITO', 'Username o Password errati, cliccare sul bottone di AIUTO', 'error');
     }  
   }
 
