@@ -9,3 +9,7 @@
 h4{
   color: red;
 }
+/* per non poter salvare le password e disattivare gli alert di chrome */
+#floatingPassword{
+  -webkit-text-security:disc;
+}
