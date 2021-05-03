@@ -1,0 +1,59 @@
+div {
+  text-align: center;
+}
+.rem {
+  background-color: red;
+}
+.card-img-top {
+margin:35px;
+transition: 1.2s ease;
+display: block; margin-left: auto; margin-right: auto;
+}
+.card-img-top:hover{
+transform : scale(1.20);
+}
+
+.BtnAggiungi{
+  transition-duration: 1.0s;
+}
+
+.BtnAggiungi:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.BtnRimuovi{
+  transition-duration: 1.0s;
+}
+
+.BtnRimuovi:hover{
+  background-color: #f10a0a;
+  color: white;
+}
+.row{
+  text-align: left;
+  margin-left: 0.2%;
+}
+h5{
+  color: rgb(24, 124, 7);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rounded{
+margin:35px;
+transition: 1.2s ease;
+display: block; margin-left: auto; margin-right: auto;
+}
+.rounded:hover{
+transform : scale(1.20);
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+img#imgDestra{
+  text-align: left;
+}

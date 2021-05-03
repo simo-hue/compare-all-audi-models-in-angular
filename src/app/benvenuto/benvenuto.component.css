@@ -1,0 +1,29 @@
+.center {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+p{
+  text-align: center;
+}
+div{
+  height: auto;
+  width: auto;
+}
+div#verticale{
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.rounded{
+margin:35px;
+transition: 1.2s ease;
+display: block; margin-left: auto; margin-right: auto;
+}
+.rounded:hover{
+transform : scale(3.00);
+}
