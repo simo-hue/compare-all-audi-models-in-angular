@@ -23,11 +23,11 @@ export class LoginComponent implements OnInit {
   {
     if (this.utente=="test" && this.pwd == "1234"){
       this.mioServ.setAutentica(true);
-      // swal.fire('LOGIN ESEGUITO CON SUCCESSO', 'Username o Password corretti', 'success');
+       swal.fire('LOGIN ESEGUITO CON SUCCESSO', 'Username o Password corretti', 'success');
       }
     else{
       this.mioServ.setAutentica(false);
-      // swal.fire('LOGIN FALLITO', 'Username o Password errati', 'error');
+       swal.fire('LOGIN FALLITO', 'Username o Password errati', 'error');
     }  
   }
 
