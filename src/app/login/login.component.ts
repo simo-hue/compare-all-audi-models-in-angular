@@ -19,8 +19,7 @@ export class LoginComponent implements OnInit {
 
   }
 
-  autenticazione()
-  {
+  autenticazione() {
     if (this.utente=="test" && this.pwd == "1234"){
       this.mioServ.setAutentica(true);
        swal.fire('LOGIN ESEGUITO CON SUCCESSO', 'Username o Password corretti', 'success');
@@ -31,8 +30,7 @@ export class LoginComponent implements OnInit {
     }  
   }
 
-  isAutenticato():boolean
-  {
+  isAutenticato():boolean {
     return this.mioServ.getAutentica();
   }
 

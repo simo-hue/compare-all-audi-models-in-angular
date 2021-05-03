@@ -1,4 +1,9 @@
-<div class="center">
+<p *ngIf="isAutenticato(); else alternativa" routerLink="/benvenuto">
+deve passare a quella merda di componente benvenuto
+</p>
+
+<ng-template #alternativa>
+  <div class="center">
   <div class="form-floating mb-3">
     <b><h4>Inserire le credenziali d'accesso</h4></b>
     <input type="text" class="form-control" id="floatingInput" placeholder="Username"
@@ -12,9 +17,8 @@
   </div>
   <div>
     <button (click)="autenticazione()" class="btn btn-primary">CONTROLLA</button> &nbsp;
-    <button (click)="alerta5()" class="btn btn-primary">AIUTO</button><br> &nbsp;
-    <button (click)="alerta5()" class="btn btn-primary">AIUTO</button><br>
+    <button (click)="alerta5()" class="btn btn-primary">AIUTO</button><br> &nbsp;  
   </div>
 </div>
-<!-- 
-<p *ngIf="isAutenticato()" routerLink = "/benvenuto"></p> -->
+</ng-template>
+
