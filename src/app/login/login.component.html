@@ -1,5 +1,7 @@
 <p *ngIf="isAutenticato(); else alternativa" routerLink="/benvenuto">
-deve passare a quella merda di componente benvenuto
+<!-- deve passare a quella merda di componente benvenuto -->
+<!-- soluzione temporanea -->
+  <app-benvenuto></app-benvenuto>
 </p>
 
 <ng-template #alternativa>
