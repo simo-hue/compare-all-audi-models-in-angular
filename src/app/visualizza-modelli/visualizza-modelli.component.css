@@ -40,11 +40,11 @@ h5{
 }
 .rounded{
 margin:35px;
-transition: 1.2s ease;
+transition: 1.0s ease;
 display: block; margin-left: auto; margin-right: auto;
 }
 .rounded:hover{
-transform : scale(1.20);
+transform : scale(1.60);
 }
 .center {
   margin: 0;
