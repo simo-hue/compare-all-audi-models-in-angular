@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginService } from '../common/login.service';
+import swal from 'sweetalert2';
 
 @Component({
   selector: 'app-login',
@@ -31,6 +32,10 @@ export class LoginComponent implements OnInit {
   isAutenticato():boolean
   {
     return this.mioServ.getAutentica();
+  }
+
+  alerta5() {
+    swal.fire('atencao...', 'informando algo!', 'info')
   }
 
 }
