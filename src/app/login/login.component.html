@@ -13,16 +13,7 @@
   <div>
     <button class="btn btn-primary" (click)="autenticazione()">ACCEDI</button> &nbsp;
     <button (click)="alerta5()" class="btn btn-primary">AIUTO</button><br>
-    <p *ngIf="isAutenticato()"></p>
   </div>
 </div>
 
-<p *ngIf="isAutenticato();else alternativa" routerLink="/benvenuto"></p>
-
-<ng-template #alternativa>
-  <h1>occorre fare l'accesso per vedere il contenuto</h1>
-  <div class="divieto">
-    <!-- <img src="https://github.com/MatioliSimone/copertinaIMG/blob/main/05779-CARTELLO-DIVIETO-DI-VIETATO-LINGREZoom1.jpg?raw=true" height="390" alt=""> -->
-  </div>
-  
-</ng-template>
+<p *ngIf="isAutenticato();" routerLink="/benvenuto"></p>
