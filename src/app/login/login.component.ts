@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
   }
 
   alerta5() {
-    swal.fire('atencao...', 'informando algo!', 'info')
+    swal.fire('INFORMAZIONI PER IL LOGIN', 'informando algo!', 'info')
   }
 
 }
