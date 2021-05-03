@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Modello } from '../common/modello.model';
 import { ElencoModelliService } from '../common/elenco-modelli.service';
 import { StatoService } from '../common/stato.service';
+import { LoginService } from '../common/login.service';
 
 
   @Component({
@@ -17,7 +18,7 @@ export class VisualizzaModelliComponent implements OnInit {
   corrente : number;
   contatore : number;
 
-  constructor(private elencoServ : ElencoModelliService, private servizio: StatoService) {}
+  constructor(private elencoServ : ElencoModelliService, private servizio: StatoService, private login: LoginService) {}
 
   ngOnInit() {
     this.corrente = 0;
@@ -43,6 +44,11 @@ export class VisualizzaModelliComponent implements OnInit {
 
   AzzeraContatore(){
     this.contatore = 0;
+  }
+
+  tornaLogin(dato:boolean)
+  {
+    this.login.setAutentica(dato);
   }
 
 }

@@ -1,35 +1,38 @@
 <div *ngIf="contatore < 2; else nonConfronta">
-<div class="text-center">
-  <a href="https://www.audi.it/it/web/it.html">
-    <img src="https://raw.githubusercontent.com/MatioliSimone/copertinaIMG/main/1200px-Audi-Logo_2016.svg.png" class="rounded" height="75" alt="...">
-  </a>
-</div>
-<hr>
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col" *ngFor="let modello of elencoModelli;index as i" [ngClass]="{'active':corrente==i}" (click)="corrente=i">
-    <div class="card-body">
-      <img src="{{modello.img}}" class="card-img-top">
-      <div class="card">
-        <b><h5>{{modello.id}}</h5></b>
-          <dl class="row">
-            <dt class="col-sm-3">Prezzo:</dt>
-            <dd class="col-sm-9"><p>{{modello.prezzo}}</p></dd>
-            <dt class="col-sm-3">Cavalli:</dt>
-            <dd class="col-sm-9">{{modello.cv}}</dd>
+  <div class="text-center">
+    <a href="https://www.audi.it/it/web/it.html">
+      <img src="https://raw.githubusercontent.com/MatioliSimone/copertinaIMG/main/1200px-Audi-Logo_2016.svg.png" class="rounded" height="75" alt="...">
+    </a>
+  </div>
+  <hr>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let modello of elencoModelli;index as i" [ngClass]="{'active':corrente==i}" (click)="corrente=i">
+      <div class="card-body">
+        <img src="{{modello.img}}" class="card-img-top">
+        <div class="card">
+          <b><h5>{{modello.id}}</h5></b>
+            <dl class="row">
+              <dt class="col-sm-3">Prezzo:</dt>
+              <dd class="col-sm-9"><p>{{modello.prezzo}}</p></dd>
+              <dt class="col-sm-3">Cavalli:</dt>
+              <dd class="col-sm-9">{{modello.cv}}</dd>
 
-            <dt class="col-sm-3 text-truncate">Peso:</dt>
-            <dd class="col-sm-9">{{modello.peso}}</dd>
+              <dt class="col-sm-3 text-truncate">Peso:</dt>
+              <dd class="col-sm-9">{{modello.peso}}</dd>
 
-            <dt class="col-sm-3 text-truncate">Motore:</dt>
-            <dd class="col-sm-9">{{modello.motore}}</dd>
-          </dl>
-        <button (click)="addConfronto()" class="BtnAggiungi">aggiungi al confronto</button>
-        <button (click)="remConfronto()" class="BtnRimuovi">rimuovi dal confronto</button>
+              <dt class="col-sm-3 text-truncate">Motore:</dt>
+              <dd class="col-sm-9">{{modello.motore}}</dd>
+            </dl>
+          <button (click)="addConfronto()" class="BtnAggiungi">aggiungi al confronto</button>
+          <button (click)="remConfronto()" class="BtnRimuovi">rimuovi dal confronto</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+<br>  
 <hr>
+<br> 
+<button (click)="tornaLogin(false)" class="tornaLogin" routerLink = "/">torna al login</button>
 </div>
 
 <ng-template #nonConfronta>
