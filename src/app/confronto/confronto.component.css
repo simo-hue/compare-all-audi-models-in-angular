@@ -1,3 +1,8 @@
 .imgDestra{
-  display: flex;
+  float:left; 
+  clear:left;
+}
+.imgSinistra{
+  float:right; 
+  clear:right;
 }
