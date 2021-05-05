@@ -5,6 +5,7 @@ export class Modello {
   prezzo: String;
   motore: String;
   img: String;
+  configura: String;
 
   constructor() {}
 }

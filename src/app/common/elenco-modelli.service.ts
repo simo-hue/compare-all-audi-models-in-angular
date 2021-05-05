@@ -11,6 +11,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 22.500,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a1.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/a1/a1-sportback.html",
      },
      {
       id: "Audi a3",
@@ -19,6 +20,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 29.600,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20s3.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/a3/a3-sportback.html",
      },
      {
       id: "Audi a4",
@@ -27,6 +29,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 42.600,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a4.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/a4/a4-avant.html",
      },
      {
       id: "Audi a5",
@@ -35,6 +38,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 48.100,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a5.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/a5/a5_sportback.html",
      },
      {
       id: "Audi a6",
@@ -43,6 +47,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 54.920,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a6.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/a6/a6-avant.html",
      },
      {
       id: "Audi a7",
@@ -51,6 +56,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 63.500,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a7.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/a7/a7-sportback.html",
      },
      {
       id: "Audi q2",
@@ -59,6 +65,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 28.400,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q2.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/q2/nuova-q2.html",
      },
      {
       id: "Audi a8",
@@ -67,6 +74,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 105.050,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a8.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/a8/a8.html",
      },
      {
       id: "Audi q3",
@@ -75,6 +83,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 36.150,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q3.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/q3/q3.html",
      },
      {
       id: "Audi q5",
@@ -83,6 +92,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 51.250,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q5.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/q5/nuova-q5.html",
      },
      {
       id: "Audi q7",
@@ -91,6 +101,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 72.450,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q7.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/q7/q7.html",
      },
      {
       id: "Audi q8",
@@ -99,6 +110,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 77.600,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q8.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/q8.html",
      },
      {
       id: "Audi TT",
@@ -107,6 +119,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 47.860,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20tt.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/tt/tt-coupe.html",
      },
      {
       id: "Audi e-tron",
@@ -115,6 +128,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 147.800,00 €",
       motore: "elettrico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20e-tron.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/e-tron-gt/audi-rs-e-tron-gt.html",
      },
      {
       id: "Audi r8",
@@ -123,6 +137,7 @@ export class ElencoModelliService {
       prezzo: "a partire da 155.988,00 €",
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20r8.jpg?raw=true",
+      configura: "https://www.audi.it/it/web/it/modelli/r8/r8-coupe-v10-rwd.html",
      },
   ];
   constructor() {}
