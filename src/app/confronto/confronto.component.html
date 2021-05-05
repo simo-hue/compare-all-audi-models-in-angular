@@ -2,7 +2,7 @@
   <div class="column">
     <div class="sliders">
       <h3> veicolo 1 </h3>
-      <p  *ngFor="let modello of elencoModelli; index as i" [ngClass]="{'active':corrente==i}" (click)="corrente=i">
+      <p  *ngFor="let modello of elencoModelli; index as i" >
         <a href="{{modello.configura}}">
           <img class="imgSinistra" src="{{modello.img}}" height="250" width="445">
         </a>
@@ -15,7 +15,7 @@
   <div class="column">
     <div class="sliders">
       <h3> veicolo 1 </h3>
-      <p  *ngFor="let modello of elencoModelli; index as i" [ngClass]="{'active':corrente==i}" (click)="corrente=i">
+      <p  *ngFor="let modello of elencoModelli; index as i">
         <a href="{{modello.configura}}">
           <img class="imgSinistra" src="{{modello.img}}" height="250" width="445">
         </a>
@@ -23,3 +23,5 @@
     </div>
   </div>
 </div>
+
+<!-- dopo ciclo for nel p [ngClass]="{'active':corrente==i}" (click)="corrente=i" -->
