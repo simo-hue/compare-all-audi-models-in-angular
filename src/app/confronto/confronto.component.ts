@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ElencoModelliService } from '../common/elenco-modelli.service';
 import { Modello } from '../common/modello.model';
-import { StatoService } from '../common/stato.service';
 
 @Component({
   selector: 'app-confronto',
@@ -10,9 +10,13 @@ import { StatoService } from '../common/stato.service';
 export class ConfrontoComponent implements OnInit {
 
   @Input() mioModello: Modello;
-  autorizzato: boolean;
+  elencoModelli : Modello[];
+  corrente : number;
 
-  constructor(private servizio: StatoService) {}
+  constructor(private elencoServ : ElencoModelliService) {
+    this.corrente = 0;
+    this.elencoModelli = this.elencoServ.elenco;
+  }
 
   ngOnInit() {
   }
