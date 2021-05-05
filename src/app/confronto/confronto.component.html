@@ -3,7 +3,9 @@
     <div class="sliders">
       <h3> veicolo 1 </h3>
       <p  *ngFor="let modello of elencoModelli; index as i" [ngClass]="{'active':corrente==i}" (click)="corrente=i">
-        <img class="imgSinistra" src="{{modello.img}}" height="250" width="445">
+        <a href="{{modello.configura}}">
+          <img class="imgSinistra" src="{{modello.img}}" height="250" width="445">
+        </a>
       </p>
     </div>
   </div>
@@ -14,7 +16,9 @@
     <div class="sliders">
       <h3> veicolo 1 </h3>
       <p  *ngFor="let modello of elencoModelli; index as i" [ngClass]="{'active':corrente==i}" (click)="corrente=i">
-        <img class="imgDestra" src="{{modello.img}}" height="250" width="445">
+        <a href="{{modello.configura}}">
+          <img class="imgSinistra" src="{{modello.img}}" height="250" width="445">
+        </a>
       </p>
     </div>
   </div>
