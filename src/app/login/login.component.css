@@ -8,6 +8,15 @@
 }
 h4{
   color: red;
+  font-family: Georgia, serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
 }
 /* per non poter salvare le password e disattivare gli alert di chrome */
 #floatingPassword{
