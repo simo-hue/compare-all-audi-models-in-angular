@@ -22,10 +22,12 @@ export class LoginComponent implements OnInit {
   autenticazione() {
     if (this.utente=="test" && this.pwd == "1234"){
       this.mioServ.setAutentica(true);
+      // Utilizzo sweetAlert2 che vuole come parametri 3 stringhe: il titolo dell' alert, la descrizione e il tipo dell' alert;
        swal.fire('LOGIN ESEGUITO CON SUCCESSO', 'Username e Password corretti', 'success');
       }
     else{
       this.mioServ.setAutentica(false);
+      // Utilizzo sweetAlert2 che vuole come parametri 3 stringhe: il titolo dell' alert, la descrizione e il tipo dell' alert;
        swal.fire('LOGIN FALLITO', 'Username o Password errati, cliccare sul bottone di AIUTO', 'error');
     }  
   }
