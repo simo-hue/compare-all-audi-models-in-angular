@@ -18,10 +18,6 @@ font-style: normal;
 font-variant: small-caps;
 text-transform: capitalize;
 }
-/* per non poter salvare le password e disattivare gli alert di chrome */
-#floatingPassword{
-  -webkit-text-security:disc;
-}
 /* per background */
 body{
   height: 100%
