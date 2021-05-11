@@ -3,13 +3,6 @@
   <img src="https://github.com/MatioliSimone/copertinaIMG/blob/main/sfondo.JPG?raw=true" alt="">
 </div>
 
-<p *ngIf="isAutenticato(); else alternativa">
-<!-- deve passare al componente benvenuto -->
-<!-- soluzione temporanea -->
-  <app-benvenuto></app-benvenuto>
-</p>
-
-<ng-template #alternativa>
   <div class="center">
   <div class="form-floating mb-3">
     <b><h4>Inserire le credenziali d'accesso</h4></b>
@@ -23,9 +16,8 @@
     <label for="floatingPassword"></label>
   </div>
   <div>
-    <button (click)="autenticazione()" class="btn btn-outline-primary">CONTROLLA</button> &nbsp;
+    <button (click)="autenticazione()" class="btn btn-outline-primary" routerLink="/benvenuto">CONTROLLA</button> &nbsp;
     <button (click)="alerta5()" class="btn btn-outline-primary">AIUTO</button><br> &nbsp;  
   </div>
 </div>
-</ng-template>
 
