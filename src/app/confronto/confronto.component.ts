@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ElencoModelliService } from '../common/elenco-modelli.service';
 import { Modello } from '../common/modello.model';
+import { StatoService } from '../common/stato.service';
 
 @Component({
   selector: 'app-confronto',
@@ -8,17 +9,15 @@ import { Modello } from '../common/modello.model';
   styleUrls: ['./confronto.component.css']
 })
 export class ConfrontoComponent implements OnInit {
+  elencoModelli: Array<Modello>;
+  corrente: number;
 
-  @Input() mioModello: Modello;
-  elencoModelli : Modello[];
-  corrente : number;
-
-  constructor(private elencoServ : ElencoModelliService) {
+  constructor(private serv: StatoService) {
+    this.elencoModelli = Array();
     this.corrente = 0;
-    this.elencoModelli = this.elencoServ.elenco;
+    this.elencoModelli = this.serv.contatore;
+    console.log(this.elencoModelli);
   }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

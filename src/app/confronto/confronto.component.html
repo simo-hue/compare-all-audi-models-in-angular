@@ -1,12 +1,13 @@
+<div class="btn btn-primary" routerLink="/visualizza">←</div>
+
 <div class="container">
   <div class="column">
     <div class="sliders">
       <h3> veicolo 1 </h3>
-      <p  *ngFor="let modello of elencoModelli; index as i" >
-        <a href="{{modello.configura}}">
-          <img class="imgSinistra" src="{{modello.img}}" height="250" width="445">
-        </a>
-      </p>
+
+      <a href="{{elencoModelli[0].configura}}">
+        <img class="imgSinistra" src="{{elencoModelli[0].img}}" height="250" width="445">
+      </a>
     </div>
   </div>
 </div>
@@ -15,11 +16,10 @@
   <div class="column">
     <div class="sliders">
       <h3> veicolo 2</h3>
-      <p  *ngFor="let modello of elencoModelli; index as i">
-        <a href="{{modello.configura}}">
-          <img class="imgSinistra" src="{{modello.img}}" height="250" width="445">
-        </a>
-      </p>
+
+      <a href="{{elencoModelli[1].configura}}">
+        <img class="imgSinistra" src="{{elencoModelli[1].img}}" height="250" width="445">
+      </a>
     </div>
   </div>
 </div>
