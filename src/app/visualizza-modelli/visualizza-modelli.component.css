@@ -22,10 +22,9 @@ transform : scale(1.20);
   color: white;
 }
 .BtnAggiungi:active{
-  animation: myAnim 0.5s ease-out 0s 1 alternate-reverse forwards;
+  animation: myAnim 0.1s ease-out 0s 2 alternate-reverse forwards;
 
 }
-
 .BtnRimuovi{
   transition-duration: 1.0s;
 }
@@ -79,14 +78,14 @@ img#imgDestra{
   -webkit-transform: translate(0px, -10px) scale(1.2);
           transform: translate(0px, -10px) scale(1.2);
 }
-/* animazione */
+/* animazione btn aggiungi*/
 @keyframes myAnim {
   0% {
     transform: scale(1);
   }
 
   50% {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
 
   100% {
