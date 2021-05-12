@@ -22,8 +22,7 @@ const LISTA_ROUTER = [
   
 ];
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, 
-    RouterModule.forRoot(LISTA_ROUTER) ],
+  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(LISTA_ROUTER) ],
   declarations: [ AppComponent, VisualizzaModelliComponent, ConfrontoComponent, BenvenutoComponent, LoginComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ElencoModelliService, StatoService, LoginService]
