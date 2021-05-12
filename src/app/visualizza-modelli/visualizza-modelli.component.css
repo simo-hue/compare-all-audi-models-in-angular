@@ -5,50 +5,54 @@ div {
   background-color: red;
 }
 .card-img-top {
-margin:35px;
-transition: 1.2s ease;
-display: block; margin-left: auto; margin-right: auto;
+  margin: 35px;
+  transition: 1.2s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.card-img-top:hover{
-transform : scale(1.20);
+.card-img-top:hover {
+  transform: scale(1.2);
 }
 /* BtnAggiungi */
-.BtnAggiungi{
-  transition-duration: 1.0s;
+.BtnAggiungi {
+  transition-duration: 1s;
 }
-.BtnAggiungi:hover{
-  background-color: #4CAF50;
+.BtnAggiungi:hover {
+  background-color: #4caf50;
   color: white;
 }
-.BtnAggiungi:active{
-  animation: myAnim 0.1s ease-out 0s 2 alternate-reverse forwards;
+.BtnAggiungi:active {
+  animation: myAnim 1s ease-out 0s 2 alternate-reverse forwards;
 }
 /* .BtnRimuovi */
-.BtnRimuovi{
-  transition-duration: 1.0s;
+.BtnRimuovi {
+  transition-duration: 1s;
 }
-.BtnRimuovi:hover{
+.BtnRimuovi:hover {
   background-color: #f10a0a;
   color: white;
 }
-.BtnRimuovi:active{
-  animation: myAnim 0.1s ease-in 0s 2 alternate-reverse forwards;
+.BtnRimuovi:active {
+  animation: myAnim 1s ease-in 0s 2 alternate-reverse forwards;
 }
-.row{
+.row {
   text-align: left;
   margin-left: 0.2%;
 }
-h5{
+h5 {
   color: rgb(24, 124, 7);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.rounded{
-margin:35px;
-transition: 1.0s ease;
-display: block; margin-left: auto; margin-right: auto;
+.rounded {
+  margin: 35px;
+  transition: 1s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.rounded:hover{
-transform : scale(1.60);
+.rounded:hover {
+  transform: scale(1.6);
 }
 .center {
   margin: 0;
@@ -58,11 +62,11 @@ transform : scale(1.60);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-img#imgDestra{
+img#imgDestra {
   text-align: left;
 }
 .tornaLogin {
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: 'Arial Black', Gadget, sans-serif;
   display: inline-block;
   background: #4285f4;
   width: 81.4%;
@@ -78,7 +82,7 @@ img#imgDestra{
 .tornaLogin:hover {
   box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
   -webkit-transform: translate(0px, -10px) scale(1.2);
-          transform: translate(0px, -10px) scale(1.2);
+  transform: translate(0px, -10px) scale(1.2);
 }
 /* animazione btn aggiungi*/
 @keyframes myAnim {
@@ -95,8 +99,8 @@ img#imgDestra{
   }
 }
 /* conferma confronto */
-h1{
-  font-family: "Arial Black", Gadget, sans-serif;
+h1 {
+  font-family: 'Arial Black', Gadget, sans-serif;
   font-size: 25px;
   letter-spacing: -0.8px;
   word-spacing: 1.2px;
