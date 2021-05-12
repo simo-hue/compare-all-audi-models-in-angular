@@ -6,20 +6,10 @@
   float:left; 
   clear:left;
 }
-/* img {
-  width: 100%;
-  max-width: 445px;
-  height: auto;
-} */
-/* body {
- width: 97%;
- font-family: Arial, Verdana, sans-serif;
- color: #000000;
- margin: auto;} */
 p {
  text-align: center;
- }
-h1, h2, h3 {
+}
+h1, h2{
  text-align: center}
 /* Create four equal columns that floats next to each other */
 .column {
@@ -44,12 +34,24 @@ h1, h2, h3 {
  width: 100%;
  }
 }
-h3{
+h1{
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 25px;
   letter-spacing: -0.8px;
   word-spacing: 1.2px;
   color: red;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+h3{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.8px;
+  word-spacing: 1.2px;
+  color: rgb(20, 8, 187);
   font-weight: 700;
   text-decoration: none solid rgb(68, 68, 68);
   font-style: normal;
