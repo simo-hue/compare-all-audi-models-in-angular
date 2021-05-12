@@ -12,26 +12,27 @@ display: block; margin-left: auto; margin-right: auto;
 .card-img-top:hover{
 transform : scale(1.20);
 }
-
+/* BtnAggiungi */
 .BtnAggiungi{
   transition-duration: 1.0s;
 }
-
 .BtnAggiungi:hover{
   background-color: #4CAF50;
   color: white;
 }
 .BtnAggiungi:active{
   animation: myAnim 0.1s ease-out 0s 2 alternate-reverse forwards;
-
 }
+/* .BtnRimuovi */
 .BtnRimuovi{
   transition-duration: 1.0s;
 }
-
 .BtnRimuovi:hover{
   background-color: #f10a0a;
   color: white;
+}
+.BtnRimuovi:active{
+  animation: myAnim 0.1s ease-in 0s 2 alternate-reverse forwards;
 }
 .row{
   text-align: left;
