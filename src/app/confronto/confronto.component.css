@@ -125,6 +125,7 @@ grid-row-gap: 0px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+/*dato veicolo 0 primo confronto*/
 .div7 {   
   margin: 0;
   position: absolute;
@@ -138,6 +139,7 @@ grid-row-gap: 0px;
 .div10 { grid-area: 3 / 4 / 4 / 6; }
 .div11 { grid-area: 4 / 4 / 5 / 6; }
 .div12 { grid-area: 5 / 4 / 6 / 6; }
+/*dato veicolo 1 primo confronto*/
 .div10 {   
   margin: 0;
   position: absolute;
