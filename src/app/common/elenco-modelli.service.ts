@@ -12,6 +12,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a1.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/a1/a1-sportback.html",
+      accelerazione: "da 6,5 a 11,5 secondi",
      },
      {
       id: "Audi a3",
@@ -21,6 +22,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20s3.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/a3/a3-sportback.html",
+      accelerazione: "da 6,8 a 10,6 secondi",
      },
      {
       id: "Audi a4",
@@ -30,6 +32,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a4.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/a4/a4-avant.html",
+      accelerazione: "da 5,2 a 9,8 secondi",
      },
      {
       id: "Audi a5",
@@ -39,6 +42,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a5.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/a5/a5_sportback.html",
+      accelerazione: "da 5,1 a 8,7 secondi" ,
      },
      {
       id: "Audi a6",
@@ -48,6 +52,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a6.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/a6/a6-avant.html",
+      accelerazione: "da 5,3 a 9,3 secondi",
      },
      {
       id: "Audi a7",
@@ -57,6 +62,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a7.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/a7/a7-sportback.html",
+      accelerazione: "da 5,3 a 8,3 secondi",
      },
      {
       id: "Audi q2",
@@ -66,6 +72,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q2.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/q2/nuova-q2.html",
+      accelerazione: "da 6,7 a 11,2 secondi",
      },
      {
       id: "Audi a8",
@@ -75,6 +82,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20a8.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/a8/a8.html",
+      accelerazione: "da 4,4 a 5,9 secondi",
      },
      {
       id: "Audi q3",
@@ -84,6 +92,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q3.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/q3/q3.html",
+      accelerazione: "da 5,8 a 9,5 secondi",
      },
      {
       id: "Audi q5",
@@ -93,6 +102,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q5.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/q5/nuova-q5.html",
+      accelerazione: "da 5,3 a 9 secondi",
      },
      {
       id: "Audi q7",
@@ -102,6 +112,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q7.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/q7/q7.html",
+      accelerazione: "da 5,4 a 7,3 secondi",
      },
      {
       id: "Audi q8",
@@ -111,6 +122,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20q8.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/q8.html",
+      accelerazione: "da 5,4 a 7,1 secondi",
      },
      {
       id: "Audi TT",
@@ -120,6 +132,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20tt.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/tt/tt-coupe.html",
+      accelerazione: "da 5,1 a 6,9 secondi",
      },
      {
       id: "Audi e-tron",
@@ -129,6 +142,7 @@ export class ElencoModelliService {
       motore: "elettrico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20e-tron.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/e-tron-gt/audi-rs-e-tron-gt.html",
+      accelerazione: "da 4,5 a 6,8 secondi",
      },
      {
       id: "Audi r8",
@@ -138,6 +152,7 @@ export class ElencoModelliService {
       motore: "termico",
       img: "https://github.com/MatioliSimone/copertinaIMG/blob/main/copertinaIMG-main/Audi%20r8.jpg?raw=true",
       configura: "https://www.audi.it/it/web/it/modelli/r8/r8-coupe-v10-rwd.html",
+      accelerazione: "da 3,1 a 3,8 secondi",
      },
   ];
   constructor() {}

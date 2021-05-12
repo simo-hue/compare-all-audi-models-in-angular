@@ -6,6 +6,7 @@ export class Modello {
   motore: String;
   img: String;
   configura: String;
+  accelerazione: String;
 
   constructor() {}
 }
