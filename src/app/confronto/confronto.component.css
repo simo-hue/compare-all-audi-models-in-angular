@@ -6,16 +6,17 @@
   float:left; 
   clear:left;
 }
-/* img {
+img {
   width: 100%;
   max-width: 445px;
   height: auto;
-} */
-/* body {
+}
+body {
  width: 97%;
  font-family: Arial, Verdana, sans-serif;
  color: #000000;
- margin: auto;} */
+ margin: auto;}
+
 p {
  text-align: center;
  }
@@ -55,17 +56,4 @@ h3{
   font-style: normal;
   font-variant: small-caps;
   text-transform: capitalize;
-}
-.rounded {
-  margin: 35px;
-  transition: 1s ease;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.rounded:hover {
-  transform: scale(1.6);
-}
-div {
-  text-align: center;
 }
