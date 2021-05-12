@@ -235,6 +235,24 @@ grid-row-gap: 0px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+/*valutazione veicolo 0*/
+.div19 {   
+  margin: 0;
+  position: absolute;
+  top: 140%;
+  left: 20%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*valutazione veicolo 1*/
+.div20 {   
+  margin: 0;
+  position: absolute;
+  top: 140%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .center {
   margin: 0;
   position: absolute;
