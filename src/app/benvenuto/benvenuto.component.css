@@ -25,5 +25,5 @@ transition: 1.2s ease;
 display: block; margin-left: auto; margin-right: auto;
 }
 .rounded:hover{
-transform : scale(3.00);
+transform : scale(2.00);
 }
