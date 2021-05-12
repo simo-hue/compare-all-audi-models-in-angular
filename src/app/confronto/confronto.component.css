@@ -208,6 +208,33 @@ grid-row-gap: 0px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+/*quinto parametro di confronto*/
+.div16 {   
+  margin: 0;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*dato veicolo 1 quarto confronto*/
+.div17 {   
+  margin: 0;
+  position: absolute;
+  top: 120%;
+  left: 20%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*dato veicolo 0 quarto confronto*/
+.div18 {   
+  margin: 0;
+  position: absolute;
+  top: 120%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .center {
   margin: 0;
   position: absolute;
