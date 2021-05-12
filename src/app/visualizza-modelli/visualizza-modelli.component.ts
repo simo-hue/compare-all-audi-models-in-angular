@@ -3,6 +3,8 @@ import { Modello } from '../common/modello.model';
 import { ElencoModelliService } from '../common/elenco-modelli.service';
 import { StatoService } from '../common/stato.service';
 import { LoginService } from '../common/login.service';
+import swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-visualizza-modelli',
