@@ -125,6 +125,15 @@ grid-row-gap: 0px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+/*quarto parametro di confronto*/
+.div13 {   
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 /*dato veicolo 0 primo confronto*/
 .div7 {   
   margin: 0;
@@ -144,7 +153,23 @@ grid-row-gap: 0px;
   transform: translate(-50%, -50%);
 }
 /*dato veicolo 0 terzo confronto*/
-.div9 { grid-area: 5 / 1 / 6 / 3; }
+.div9 {   
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*dato veicolo 1 primo confronto*/
+.div10 {   
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 /*dato veicolo 1 terzo confronto*/
 .div11 {   
   margin: 0;
@@ -154,12 +179,29 @@ grid-row-gap: 0px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.div12 { grid-area: 5 / 4 / 6 / 6; }
-/*dato veicolo 1 primo confronto*/
-.div10 {   
+/*dato veicolo 1 terzo confronto*/
+.div12 {   
   margin: 0;
   position: absolute;
-  top: 80%;
+  top: 100%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*dato veicolo 0 quarto confronto*/
+.div14 {   
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  left: 20%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*dato veicolo 1 quarto confronto*/
+.div15 {   
+  margin: 0;
+  position: absolute;
+  top: 110%;
   left: 75%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
