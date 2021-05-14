@@ -49,7 +49,7 @@ export class VisualizzaModelliComponent implements OnInit {
       //se il modello è trovato
       this.AzzeraContatore();
     } else {
-      swal.fire('INFORMAZIONE', 'Non si può eliminare un veicolo se prima non è stato aggiunto', 'info')
+      swal.fire('ERRORE', 'Non si può eliminare un veicolo se prima non è stato aggiunto', 'error')
     }
   }
 

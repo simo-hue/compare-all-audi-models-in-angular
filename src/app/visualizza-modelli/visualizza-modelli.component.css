@@ -1,9 +1,6 @@
 div {
   text-align: center;
 }
-.rem {
-  background-color: red;
-}
 .card-img-top {
   margin: 35px;
   transition: 0.8s ease;
@@ -40,9 +37,7 @@ h5 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-img#imgDestra {
-  text-align: left;
-}
+/* btn per tornare al login */
 #tornaLogin{
   width: 96%;
 }
