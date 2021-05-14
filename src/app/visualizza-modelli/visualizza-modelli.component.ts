@@ -44,7 +44,6 @@ export class VisualizzaModelliComponent implements OnInit {
 
   remConfronto(modello: Modello) {
     let i = this.servizio.contatore.indexOf(modello);
-    console.log(i);
     if (i != -1) {
       //se il modello è trovato
       this.AzzeraContatore();
