@@ -3,6 +3,7 @@ import { Modello } from '../common/modello.model';
 import { ElencoModelliService } from '../common/elenco-modelli.service';
 import { StatoService } from '../common/stato.service';
 import { LoginService } from '../common/login.service';
+import swal from 'sweetalert2';
 
 @Component({
   selector: 'app-visualizza-modelli',
@@ -27,7 +28,8 @@ export class VisualizzaModelliComponent implements OnInit {
   }
 
   addConfronto(modello: Modello) {
-    if (this.servizio.contatore.indexOf(modello) == -1)
+    if (this.servizio.contatore.indexOf(modello) == -1) {
+      //se non trova il modello nell'array
       if (
         this.servizio.contatore.length >= 0 &&
         this.servizio.contatore.length < 2
@@ -36,14 +38,20 @@ export class VisualizzaModelliComponent implements OnInit {
       } else if (this.servizio.contatore.length == 2) {
         this.servizio.setContatoreTrue();
       }
+    } else {
+      //se lo trova
+      swal.fire('già inserito');
+    }
   }
 
   remConfronto(modello: Modello) {
-    if (this.servizio.contatore.length > 0) {
-      let i = this.servizio.contatore.indexOf(modello);
-      if (i != -1) {
-        this.AzzeraContatore();
-      }
+    let i = this.servizio.contatore.indexOf(modello);
+    console.log(i);
+    if (i != -1) {
+      //se il modello è trovato
+      this.AzzeraContatore();
+    } else {
+      swal.fire('non inserito');
     }
   }
 
