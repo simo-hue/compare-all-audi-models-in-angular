@@ -1,107 +1,66 @@
- <!-- logo audi -->
+<!-- logo audi -->
 <div class="text-center" routerLink="/visualizza">
-    <a>
-      <img src="https://raw.githubusercontent.com/MatioliSimone/copertinaIMG/main/1200px-Audi-Logo_2016.svg.png" class="rounded" height="75" alt="...">
-    </a>
+  <a>
+    <img src="https://raw.githubusercontent.com/MatioliSimone/copertinaIMG/main/1200px-Audi-Logo_2016.svg.png" class="rounded" height="75" alt="...">
+  </a>
 </div>
 <hr>
 
-<div class="parent">
-   <!-- img di destra -->
-  <div class="div1">
-    <div class="container">
-      <div class="column">
-        <div class="sliders">
-          <h1>{{elencoModelli[1].id}} </h1>
-          <a href="{{elencoModelli[1].configura}}">
-            <img class="" src="{{elencoModelli[1].img}}" height="250" width="445">
-          </a>
+<div class="container-fluid">
+  <div class="row justify-items-center">
+
+    <div class="col-md-4 col-sm-5">
+      <div class="card-body">
+        <img src="{{elencoModelli[0].img}}" class="card-img-top">
+        <div class="card">
+          <b><h5>{{elencoModelli[0].id}}</h5></b>
+          <dl class="row">
+            <dt class="col-sm-4">Prezzo:</dt>
+            <dd class="col-sm-8">
+              <p>{{elencoModelli[0].prezzo}}</p>
+            </dd>
+            <dt class="col-sm-4">Cavalli:</dt>
+            <dd class="col-sm-8">{{elencoModelli[0].cv}}</dd>
+
+            <dt class="col-sm-4 text-truncate">Peso:</dt>
+            <dd class="col-sm-8">{{elencoModelli[0].peso}}</dd>
+
+            <dt class="col-sm-4 text-truncate">Motore:</dt>
+            <dd class="col-sm-8">{{elencoModelli[0].motore}}</dd>
+          </dl>
         </div>
       </div>
-    </div>  
-  </div>
-   <!-- img di sinistra -->
-  <div class="div2">
-    <div class="column">
-      <div class="sliders">
-        <h1>{{elencoModelli[0].id}} </h1>
-        <a href="{{elencoModelli[0].configura}}">
-          <img class="" src="{{elencoModelli[0].img}}" height="250" width="445">
-        </a>
+    </div>
+
+    <div class="col-md-3 col-sm-2">
+      <img src="https://github.com/MatioliSimone/copertinaIMG/blob/main/prova.png?raw=true" alt="">
+    </div>
+
+    <div class="col-md-4 col-sm-5">
+      <div class="card-body">
+        <img src="{{elencoModelli[1].img}}" class="card-img-top">
+        <div class="card">
+          <b><h5>{{elencoModelli[1].id}}</h5></b>
+          <dl class="row">
+            <dt class="col-sm-4">Prezzo:</dt>
+            <dd class="col-sm-8">
+              <p>{{elencoModelli[1].prezzo}}</p>
+            </dd>
+            <dt class="col-sm-4">Cavalli:</dt>
+            <dd class="col-sm-8">{{elencoModelli[1].cv}}</dd>
+
+            <dt class="col-sm-4 text-truncate">Peso:</dt>
+            <dd class="col-sm-8">{{elencoModelli[1].peso}}</dd>
+
+            <dt class="col-sm-4 text-truncate">Motore:</dt>
+            <dd class="col-sm-8">{{elencoModelli[1].motore}}</dd>
+          </dl>
+
+        </div>
+
+
       </div>
-    </div> 
+
+
+    </div>
   </div>
-   <!-- logo confronto -->
-  <div class="div3">
-    <img class="center" src="https://github.com/MatioliSimone/copertinaIMG/blob/main/prova.png?raw=true" alt="">
-  </div>
-  <!-- primo parametro di confronto confronto -->
-  <div class="div4">
-    <h2>PREZZO: </h2>
-  </div>
-  <!-- secondo parametro di confronto confronto -->
-  <div class="div5">
-    <h2>CAVALLI: </h2>
-  </div>
-  <!-- terzo parametro di confronto confronto -->
-  <div class="div6">
-    <h2>PESO: </h2>
-  </div>
-  <!-- dato veicolo 1 primo confronto -->
-  <div class="div7">
-    <h3>{{elencoModelli[1].prezzo}} </h3>
-  </div>
-  <!-- dato veicolo 1 secondo confronto -->
-  <div class="div8">
-    <h3>{{elencoModelli[1].cv}} </h3>
-  </div>
-  <!-- dato veicolo 1 terzo confronto -->
-  <div class="div9">
-    <h3>{{elencoModelli[1].peso}} </h3>
-  </div>
-  <!-- dato veicolo 0 primo confronto -->
-  <div class="div10">
-    <h3>{{elencoModelli[0].prezzo}} </h3>
-  </div>
-  <!-- dato veicolo 0 secondo confronto -->
-  <div class="div11">
-    <h3>{{elencoModelli[0].cv}} </h3>
-  </div>
-  <!-- dato veicolo 0 terzo confronto -->
-  <div class="div12">
-    <h3>{{elencoModelli[0].peso}} </h3>
-  </div>
-  <!-- quarto parametro di confronto confronto -->
-  <div class="div13">
-    <h2>TIPOLOGIA MOTORE: </h2>
-  </div>
-  <!-- dato veicolo 0 quarto confronto -->
-  <div class="div14">
-    <h3>{{elencoModelli[1].motore}} </h3>
-  </div>
-  <!-- dato veicolo 1 quarto confronto -->
-  <div class="div15">
-    <h3>{{elencoModelli[0].motore}} </h3>
-  </div>
-  <!-- quinto parametro di confronto confronto -->
-  <div class="div16">
-    <h2>ACCELERAZIONE: </h2>
-  </div>
-  <!-- dato veicolo 0 quinto confronto -->
-  <div class="div17">
-    <h3>{{elencoModelli[1].accelerazione}} </h3>
-  </div>
-  <!-- dato veicolo 1 quinto confronto -->
-  <div class="div18">
-    <h3>{{elencoModelli[0].accelerazione}} </h3>
-  </div>
-  <!-- valutazione dei veicoli -->
-  <!-- dato veicolo 1 quinto confronto 
-  <div class="div19">
-    <h3>valutami </h3>
-  </div>
-   dato veicolo 1 quinto confronto 
-  <div class="div20">
-    <h3>valutami </h3>
-    -->
-</div>
