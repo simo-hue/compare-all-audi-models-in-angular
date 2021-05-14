@@ -28,8 +28,7 @@ export class VisualizzaModelliComponent implements OnInit {
   }
 
   addConfronto(modello: Modello) {
-    if (this.servizio.contatore.indexOf(modello) == -1) {
-      //se non trova il modello nell'array
+    if (this.servizio.contatore.indexOf(modello) == -1) { //se non trova il modello nell'array
       if (
         this.servizio.contatore.length >= 0 &&
         this.servizio.contatore.length < 2
@@ -38,9 +37,8 @@ export class VisualizzaModelliComponent implements OnInit {
       } else if (this.servizio.contatore.length == 2) {
         this.servizio.setContatoreTrue();
       }
-    } else {
-      //se lo trova
-      swal.fire('già inserito');
+    } else {//se invece lo trova
+      swal.fire('INFORMAZIONE', 'Il veicolo selezionato è già stato aggiunto', 'info')
     }
   }
 
@@ -51,7 +49,7 @@ export class VisualizzaModelliComponent implements OnInit {
       //se il modello è trovato
       this.AzzeraContatore();
     } else {
-      swal.fire('non inserito');
+      swal.fire('INFORMAZIONE', 'Non si può eliminare un veicolo se prima non è stato aggiunto', 'info')
     }
   }
 
