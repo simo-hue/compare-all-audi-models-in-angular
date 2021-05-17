@@ -1,11 +1,14 @@
+<!-- nel caso non avessimo già selezionato i due modelli da confrontare  -->
 <div *ngIf="getContatoreLength() < 2; else nonConfronta">
   <div class="text-center">
+    <!-- reindirizzo al sito web ufficiale dell'Audi nel caso in cui l'utente clicca sul logo(ovvero img) -->
     <a href="https://www.audi.it/it/web/it.html">
       <img src="https://raw.githubusercontent.com/MatioliSimone/copertinaIMG/main/1200px-Audi-Logo_2016.svg.png" class="rounded" height="75" alt="...">
     </a>
   </div>
   <hr>
   <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- genero tutte le card(prese da bootstrap) tramite un ciclo for che legge l'elenco dei modelli contenuti nell elenco-modelliService -->
     <div class="col" *ngFor="let modello of elencoModelli;index as i" [ngClass]="{'active':corrente==i}"
       (click)="corrente=i">
       <div class="card-body">
@@ -35,7 +38,7 @@
   <hr>
   <button (click)="tornaLogin(false)" class="btn btn-outline-info" id="tornaLogin" routerLink = "/">torna al login</button>
 </div>
-
+<!-- una volta selezionati i due modelli verrà posta una domanda all'utente -->
 <ng-template #nonConfronta>
   <div class="center">
     <h1>desidera procedere con il confronto?</h1>
