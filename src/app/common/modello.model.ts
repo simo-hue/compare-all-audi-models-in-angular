@@ -1,3 +1,4 @@
+// STABILISCO LE CARATTERISTICHE DEL MODELLO
 export class Modello {
   id: String;
   cv: String;
