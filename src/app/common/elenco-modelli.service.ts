@@ -3,6 +3,7 @@ import { Modello } from "./modello.model";
 
 @Injectable()
 export class ElencoModelliService {
+  // elenco di tutti i modelli e delle relative caratteristiche
   elenco: Modello[] = [
     {
       id: "Audi a1",
