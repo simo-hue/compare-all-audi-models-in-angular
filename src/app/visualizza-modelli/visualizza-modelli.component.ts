@@ -59,6 +59,7 @@ export class VisualizzaModelliComponent implements OnInit {
   tornaLogin(dato: boolean) {
     this.login.setAutentica(dato);
   }
+  
   getContatoreLength() {
     return this.servizio.contatore.length;
   }
