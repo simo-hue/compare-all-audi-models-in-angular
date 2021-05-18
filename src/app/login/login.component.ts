@@ -12,7 +12,6 @@ export class LoginComponent implements OnInit {
   utente : String;
   pwd : String;
 
-
   constructor(private mioServ:LoginService) { }
 
   ngOnInit() {
