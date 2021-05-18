@@ -9,6 +9,7 @@ import { StatoService } from '../common/stato.service';
   styleUrls: ['./confronto.component.css']
 })
 export class ConfrontoComponent implements OnInit {
+ 
   elencoModelli: Array<Modello>;
   corrente: number;
 
