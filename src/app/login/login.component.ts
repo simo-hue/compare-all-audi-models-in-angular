@@ -35,8 +35,8 @@ export class LoginComponent implements OnInit {
   isAutenticato():boolean {
     return this.mioServ.getAutentica();
   }
-  
-  //btn help dove fornisce il suggerimento per accedere;
+
+  //btn help che fornisce il suggerimento per accedere;
   alerta5() {
     swal.fire('INFORMAZIONI PER IL LOGIN', '✔️  Username: test ✔️  Password: 1234', 'info')
   }
