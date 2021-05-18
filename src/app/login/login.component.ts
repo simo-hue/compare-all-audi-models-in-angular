@@ -30,11 +30,12 @@ export class LoginComponent implements OnInit {
        swal.fire('LOGIN FALLITO', 'Username o Password errati, cliccare sul bottone di AIUTO', 'error');
     }  
   }
-  
+
   //controllo se è autenticato;
   isAutenticato():boolean {
     return this.mioServ.getAutentica();
   }
+  
   //btn help dove fornisce il suggerimento per accedere;
   alerta5() {
     swal.fire('INFORMAZIONI PER IL LOGIN', '✔️  Username: test ✔️  Password: 1234', 'info')
