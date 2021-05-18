@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit {
   }
   //btn help dove fornisce il suggerimento per accedere;
   alerta5() {
-    swal.fire('INFORMAZIONI PER IL LOGIN', '💠 Username: test 💠 Password: 1234', 'info')
+    swal.fire('INFORMAZIONI PER IL LOGIN', '✔️  Username: test ✔️  Password: 1234', 'info')
   }
 
 }
