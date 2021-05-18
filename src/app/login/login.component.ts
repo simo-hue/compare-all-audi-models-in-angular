@@ -30,6 +30,7 @@ export class LoginComponent implements OnInit {
        swal.fire('LOGIN FALLITO', 'Username o Password errati, cliccare sul bottone di AIUTO', 'error');
     }  
   }
+  
   //controllo se è autenticato;
   isAutenticato():boolean {
     return this.mioServ.getAutentica();
