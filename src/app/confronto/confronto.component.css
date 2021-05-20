@@ -1,14 +1,3 @@
-.imgDestra{
-  float:right; 
-  clear:right;
-}
-.imgSinistra{
-  float:left; 
-  clear:left;
-}
-p {
- text-align: center;
-}
 h1, h2{
  text-align: center}
 h1{
