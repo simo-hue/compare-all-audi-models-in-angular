@@ -37,15 +37,14 @@ export class VisualizzaModelliComponent implements OnInit {
       } else if (this.servizio.contatore.length == 2) {
         this.servizio.setContatoreTrue();
       }
-    } else {//se invece lo trova
+    } else { //se invece lo trova
       swal.fire('INFORMAZIONE', 'Il veicolo selezionato è già stato aggiunto', 'info')
     }
   }
 
   remConfronto(modello: Modello) {
     let i = this.servizio.contatore.indexOf(modello);
-    if (i != -1) {
-      //se il modello è trovato
+    if (i != -1) { //se il modello è trovato
       this.AzzeraContatore();
     } else {
       swal.fire('ERRORE', 'Non si può eliminare un veicolo se prima non è stato aggiunto', 'error')
