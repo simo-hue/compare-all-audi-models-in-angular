@@ -19,12 +19,12 @@
           <b><h5>{{modello.id}}</h5></b>
           <!-- poi genero tutte le altre caratteristiche -->
           <dl class="row">
-            <dt class="col-sm-3">Prezzo:</dt>
-            <dd class="col-sm-9">
+            <dt class="col-sm-4">Prezzo:</dt>
+            <dd class="col-sm-8">
               <p>{{modello.prezzo}}</p>
             </dd>
-            <dt class="col-sm-3">Cavalli:</dt>
-            <dd class="col-sm-9">{{modello.cv}}</dd>
+            <dt class="col-sm-4">Cavalli:</dt>
+            <dd class="col-sm-8">{{modello.cv}}</dd>
           </dl>
           <button (click)="addConfronto(modello)" class="btn btn-outline-success">aggiungi al confronto</button>
           <button (click)="remConfronto(modello)" class="btn btn-outline-danger my-1">rimuovi dal confronto</button>
