@@ -11,7 +11,7 @@
     <!-- genero tutte le card(prese da bootstrap) tramite un ciclo for che legge l'elenco dei modelli contenuti nell elenco-modelliService -->
     <div class="col" *ngFor="let modello of elencoModelli;index as i" [ngClass]="{'active':corrente==i}"
       (click)="corrente=i">
-      <!-- genero l'immagine per ogni carta tramite la String Interpolation-->
+      <!-- tramite la String Interpolation genero l'immagine e le altre caratteristiche per ogni card -->
       <div class="card-body">
         <img src="{{modello.img}}" class="card-img-top">
         
