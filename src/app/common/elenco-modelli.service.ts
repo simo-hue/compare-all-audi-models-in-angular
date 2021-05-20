@@ -127,7 +127,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi TT",
-      cv: " disponibile solo con 245 CV",
+      cv: " disponibile da 190 a 245 CV",
       peso: "un peso di 1.370 kg",
       prezzo: "a partire da 47.860,00 €",
       motore: "termico",
