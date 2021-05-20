@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ElencoModelliService } from '../common/elenco-modelli.service';
+import { LoginService } from '../common/login.service';
 import { Modello } from '../common/modello.model';
 import { StatoService } from '../common/stato.service';
 
@@ -13,7 +14,7 @@ export class ConfrontoComponent implements OnInit {
   elencoModelli: Array<Modello>;
   corrente: number;
 
-  constructor(private serv: StatoService) {
+  constructor(private serv: StatoService, private login: LoginService) {
     this.elencoModelli = Array();
     this.corrente = 0;
     this.elencoModelli = this.serv.contatore;
@@ -21,4 +22,8 @@ export class ConfrontoComponent implements OnInit {
   }
 
   ngOnInit() {}
+
+  tornaLogin(dato: boolean) {
+    this.login.setAutentica(dato);
+  }
 }
