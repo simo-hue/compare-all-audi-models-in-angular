@@ -7,7 +7,7 @@ export class ElencoModelliService {
   elenco: Modello[] = [
     {
       id: "Audi a1",
-      cv: " disponibile da 95 a 150 cavalli",
+      cv: " disponibile da 95 a 150 CV",
       peso: "un peso di 1.165 kg",
       prezzo: "a partire da 22.500,00 €",
       motore: "termico",
@@ -17,7 +17,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi a3",
-      cv: " disponibile da 110 a 150 cavalli",
+      cv: " disponibile da 110 a 150 CV",
       peso: "un peso di 1.210 kg",
       prezzo: "a partire da 29.600,00 €",
       motore: "termico",
@@ -27,7 +27,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi a4",
-      cv: " disponibile da 150 a 286 cavalli",
+      cv: " disponibile da 150 a 286 CV",
       peso: "un peso di 1.320 kg",
       prezzo: "a partire da 42.600,00 €",
       motore: "termico",
@@ -37,7 +37,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi a5",
-      cv: " disponibile da 204 a 286 cavalli",
+      cv: " disponibile da 204 a 286 CV",
       peso: "un peso di 1.590 kg",
       prezzo: "a partire da 48.100,00 €",
       motore: "termico",
@@ -47,7 +47,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi a6",
-      cv: " disponibile da 163 a 340 cavalli",
+      cv: " disponibile da 163 a 340 CV",
       peso: "un peso di 1745 kg",
       prezzo: "a partire da 54.920,00 €",
       motore: "termico",
@@ -57,7 +57,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi a7",
-      cv: " disponibile da 204 a 340 cavalli",
+      cv: " disponibile da 204 a 340 CV",
       peso: "un peso di 1.815 kg",
       prezzo: "a partire da 63.500,00 €",
       motore: "termico",
@@ -67,7 +67,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi q2",
-      cv: " disponibile da 110 a 150 cavalli",
+      cv: " disponibile da 110 a 150 CV",
       peso: "un peso di 1.325 kg",
       prezzo: "a partire da 28.400,00 €",
       motore: "termico",
@@ -77,7 +77,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi a8",
-      cv: " disponibile da 286 a 460 cavalli",
+      cv: " disponibile da 286 a 460 CV",
       peso: "un peso di 2.165 kg",
       prezzo: "a partire da 105.050,00 €",
       motore: "termico",
@@ -87,7 +87,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi q3",
-      cv: " disponibile da 150 a 245 cavalli",
+      cv: " disponibile da 150 a 245 CV",
       peso: "un peso di 1.810 kg",
       prezzo: "a partire da 36.150,00 €",
       motore: "termico",
@@ -97,7 +97,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi q5",
-      cv: " disponibile da 163 a 286 cavalli",
+      cv: " disponibile da 163 a 286 CV",
       peso: "un peso di 1.165 kg",
       prezzo: "a partire da 51.250,00 €",
       motore: "termico",
@@ -107,7 +107,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi q7",
-      cv: " disponibile da 231  a 340 cavalli",
+      cv: " disponibile da 231  a 340 CV",
       peso: "un peso di 2.130 kg",
       prezzo: "a partire da 72.450,00 €",
       motore: "termico",
@@ -117,7 +117,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi q8",
-      cv: " disponibile da 231  a 340 cavalli",
+      cv: " disponibile da 231  a 340 CV",
       peso: "un peso di 2.175 kg",
       prezzo: "a partire da 77.600,00 €",
       motore: "termico",
@@ -127,7 +127,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi TT",
-      cv: " disponibile solo con 245 cavalli",
+      cv: " disponibile solo con 245 CV",
       peso: "un peso di 1.370 kg",
       prezzo: "a partire da 47.860,00 €",
       motore: "termico",
@@ -137,7 +137,7 @@ export class ElencoModelliService {
      },
      {
       id: "Audi e-tron",
-      cv: " disponibile solo con 600 cavalli",
+      cv: " disponibile solo con 600 CV",
       peso: "un peso di 2.420 kg",
       prezzo: "a partire da 147.800,00 €",
       motore: "elettrico",
