@@ -28,8 +28,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: url('https://github.com/MatioliSimone/copertinaIMG/blob/main/sfondo.JPG?raw=true')
-    no-repeat center top;
+  background: url('https://github.com/MatioliSimone/copertinaIMG/blob/main/sfondo.JPG?raw=true') no-repeat center top;
   position: fixed;
   z-index: -1;
   -webkit-background-size: cover;
